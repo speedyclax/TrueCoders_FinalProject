@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TrueCoders_Final_Project_MVC/1.0.0": {
+        "runtime": {
+          "TrueCoders_Final_Project_MVC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TrueCoders_Final_Project_MVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TrueCoders_Final_Project_MVC.props" />
+</Project>
