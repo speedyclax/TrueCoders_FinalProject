@@ -1,7 +1,20 @@
+using MySql.Data.MySqlClient;
+using System.Data;
+using TrueCoders_Final_Project_MVC;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IDbConnection>((s) =>
+{
+    IDbConnection conn = new MySqlConnection(builder.Configuration.GetConnectionString("bestbuy"));
+    conn.Open();
+    return conn;
+});
+
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 
