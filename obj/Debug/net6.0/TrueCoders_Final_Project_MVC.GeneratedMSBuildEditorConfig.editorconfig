@@ -16,14 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\speed\Desktop\repos\Final_Project\TrueCoders_Final_Project_MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/2023/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcMjAyM1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/2023/View2023.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcMjAyM1xWaWV3MjAyMy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,16 +24,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Product/UpdateProduct.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Movie/InsertMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5zZXJ0TW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Product/ViewProduct.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxWaWV3UHJvZHVjdC5jc2h0bWw=
+[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Movie/UpdateMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcVXBkYXRlTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Movie/ViewMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcVmlld01vdmllLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/speed/Desktop/repos/Final_Project/TrueCoders_Final_Project_MVC/Views/Shared/Error.cshtml]

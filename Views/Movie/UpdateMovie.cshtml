@@ -1,0 +1,16 @@
+﻿@model Movie
+
+<h2>Update @Model.Title</h2>
+
+@using (Html.BeginForm("UpdateMovieToDatabase", "Movie", "Post"))
+{
+    <input asp-for="id_movie" type="hidden" value="@Model.id_movie" />
+
+    <label asp-for="Title" class="control-label">Title</label>
+    <input type="text" name="Title" class="form-control" value="@Model.Title" />
+
+    <label asp-for="Rating" class="control-label">Rating</label>
+    <input type="text" name="Rating" class="form-control" value="@Model.Rating" />
+
+    <input type="submit" value="Update Movie" class="btn btn-primary" />
+}

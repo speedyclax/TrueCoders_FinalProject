@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\speed\\Desktop\\repos\\Final_Project\\TrueCoders_Final_Project_MVC\\wwwroot\\images\\halloween2.jpeg",
+      "PackagePath": "staticwebassets\\images\\halloween2.jpeg"
+    },
+    {
       "Id": "C:\\Users\\speed\\Desktop\\repos\\Final_Project\\TrueCoders_Final_Project_MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

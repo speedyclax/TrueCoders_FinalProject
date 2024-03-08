@@ -1,0 +1,19 @@
+﻿@model Movie
+
+<h2>Create a New Movie</h2>
+
+@using (Html.BeginForm("InsertMovieToDatabase", "Movie", "Post"))
+{
+    <input asp-for="id_movie" type="hidden" value="" />
+
+    <label asp-for="Title" class="control-label">Title</label>
+    <input type="text" name="Title" class="form-control" value="" />
+
+    <label asp-for="Rating" class="control-label">Rating</label>
+    <input type="text" name="Rating" class="form-control" value=""/>
+
+    <label asp-for="year_reviewed" class="control-label">Year Reviewed</label>
+    <input type="number" name="Year Reviewed" class="form-control" value="" />
+
+    <input type="submit" value="Create Movie" class="btn btn-primary" />
+}
