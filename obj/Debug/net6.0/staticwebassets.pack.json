@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\speed\\Desktop\\repos\\Final_Project\\TrueCoders_Final_Project_MVC\\wwwroot\\images\\Halloween5.jpeg",
+      "PackagePath": "staticwebassets\\images\\Halloween5.jpeg"
+    },
+    {
       "Id": "C:\\Users\\speed\\Desktop\\repos\\Final_Project\\TrueCoders_Final_Project_MVC\\wwwroot\\images\\halloween2.jpeg",
       "PackagePath": "staticwebassets\\images\\halloween2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\speed\\Desktop\\repos\\Final_Project\\TrueCoders_Final_Project_MVC\\wwwroot\\images\\halloween6.jpeg",
+      "PackagePath": "staticwebassets\\images\\halloween6.jpeg"
     },
     {
       "Id": "C:\\Users\\speed\\Desktop\\repos\\Final_Project\\TrueCoders_Final_Project_MVC\\wwwroot\\js\\site.js",

@@ -12,5 +12,15 @@
     <label asp-for="Rating" class="control-label">Rating</label>
     <input type="text" name="Rating" class="form-control" value="@Model.Rating" />
 
-    <input type="submit" value="Update Movie" class="btn btn-primary" />
+    <label asp-for="year_reviewed" class="control-label">Year Reviewed</label>
+    <input type="number" name="year_reviewed" class="form-control" value="@Model.year_reviewed" />
+    <br />
+    <input type="submit" value="Update Movie" class="btn btn-warning" />
+
+    <style>
+
+        body {
+            background-color: darkorange;
+        }
+    </style>
 }

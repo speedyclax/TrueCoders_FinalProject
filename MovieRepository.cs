@@ -19,8 +19,8 @@ namespace TrueCoders_Final_Project_MVC
         }
         public void UpdateMovie(Movie movie)
         {
-            _conn.Execute("UPDATE movies SET Title = @title, Rating = @rating WHERE id_movie = @id_movie",
-             new { title = movie.Title, rating = movie.Rating, id_movie = movie.id_movie });
+            _conn.Execute("UPDATE movies SET Title = @title, Rating = @rating, year_reviewed = @year_reviewed WHERE id_movie = @id_movie",
+             new { title = movie.Title, rating = movie.Rating, year_reviewed = movie.year_reviewed, id_movie = movie.id_movie });
         }
 
         public Movie GetMovie(int id)
@@ -30,7 +30,7 @@ namespace TrueCoders_Final_Project_MVC
 
         public void InsertMovie(Movie movieToInsert)
         {
-            _conn.Execute("INSERT INTO movies (Title, Rating, Year_Reviewed) VALUES (@title, @rating, @year_reviewed);",
+            _conn.Execute("INSERT INTO movies (Title, Rating, year_reviewed) VALUES (@title, @rating, @year_reviewed);",
                     new { title = movieToInsert.Title, rating = movieToInsert.Rating, year_reviewed = movieToInsert.year_reviewed });
         }
 

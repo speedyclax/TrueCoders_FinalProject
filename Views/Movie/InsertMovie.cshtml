@@ -1,6 +1,6 @@
 ﻿@model Movie
 
-<h2>Create a New Movie</h2>
+<h2>New Scary</h2>
 
 @using (Html.BeginForm("InsertMovieToDatabase", "Movie", "Post"))
 {
@@ -13,7 +13,14 @@
     <input type="text" name="Rating" class="form-control" value=""/>
 
     <label asp-for="year_reviewed" class="control-label">Year Reviewed</label>
-    <input type="number" name="Year Reviewed" class="form-control" value="" />
+    <input type="number" name="year_reviewed" class="form-control" value="" />
+    <br />
+    <input type="submit" value="Insert Scary" class="btn btn-danger" />
 
-    <input type="submit" value="Create Movie" class="btn btn-primary" />
+    <style>
+
+        body {
+            background-color: darkorange;
+        }
+    </style>
 }
